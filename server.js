@@ -12,7 +12,7 @@ data = {
 app = express();
 
 app.use(cors({
-  origin:'*'
+  origin:'https://whimsical-paletas-c5a1b3.netlify.app',credentials:true
 }));
 app.use(express.json());
 
